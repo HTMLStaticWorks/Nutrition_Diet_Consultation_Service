@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nourish - Premium Nutrition & Diet Consultation Service offering personalized meal plans and lifestyle guidance.">
+    <meta name="keywords" content="Nutritionist, Diet Plan, Healthy Lifestyle, Wellness, Meal Planning">
+    <meta name="author" content="Nourish Nutrition">
+    <title>Nutrition & Diet Consultation Service</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+</head>
+<body>
+
+    <!-- Main Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-xl navbar-light py-3">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                    <img src="assets/images/favicon.svg" alt="Nourish Logo" width="28" height="28">
+                    <span class="fw-bold fs-4 text-green" style="font-family: var(--font-accent);">Nourish.</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="home-2.html">Home 2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+                        <a href="#" id="darkModeToggleBtn" class="text-secondary text-decoration-none" title="Toggle Dark Mode"><i class="fas fa-moon fs-5"></i></a>
+                        <a href="#" id="rtlToggle" class="text-secondary text-decoration-none" title="Toggle RTL"><i class="fas fa-exchange-alt fs-5"></i></a>
+                        <a href="login.html" class="btn-outline-sm text-decoration-none ms-2">Login</a>
+                        <a href="booking.html" class="btn-primary btn-sm px-4 py-2">Book</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1. Hero -->
+    <section class="section-padding text-center position-relative" style="background: url('https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1500') center/cover; padding: 150px 0;">
+        <div style="position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.6);"></div>
+        <div class="container position-relative z-3 text-white">
+            <h1 class="display-4 text-white">Book a Consultation</h1>
+            <p class="lead mt-3">Take the first step towards a healthier, more vibrant you.</p>
+        </div>
+    </section>
+
+    <!-- 2. Booking Section -->
+    <section class="section-padding bg-cream">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Form Side -->
+                <div class="col-lg-7">
+                    <div class="bg-white p-4 p-md-5 rounded-4 shadow">
+                        <h3 class="mb-4">Schedule Your Visit</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label class="form-label text-dark-green fw-bold">Select Service</label>
+                                <select class="form-select p-3 bg-light border-0">
+                                    <option>Initial Personal Consultation (60 min)</option>
+                                    <option>Follow-Up Consultation (30 min)</option>
+                                    <option>Weight Management Program Discovery</option>
+                                    <option>Sports Nutrition Assessment</option>
+                                </select>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <label class="form-label text-dark-green fw-bold">Preferred Date</label>
+                                    <input type="date" class="form-control p-3 bg-light border-0">
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label class="form-label text-dark-green fw-bold">Preferred Time</label>
+                                    <input type="time" class="form-control p-3 bg-light border-0">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <label class="form-label text-dark-green fw-bold">First Name</label>
+                                    <input type="text" class="form-control p-3 bg-light border-0" placeholder="Jane">
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label class="form-label text-dark-green fw-bold">Last Name</label>
+                                    <input type="text" class="form-control p-3 bg-light border-0" placeholder="Doe">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label text-dark-green fw-bold">Email Address</label>
+                                <input type="email" class="form-control p-3 bg-light border-0" placeholder="jane@example.com">
+                            </div>
+                            <div class="mb-5">
+                                <label class="form-label text-dark-green fw-bold">Any Notes or Health Concerns?</label>
+                                <textarea class="form-control p-3 bg-light border-0" rows="3" placeholder="Briefly describe what you'd like to focus on..."></textarea>
+                            </div>
+                            <button type="button" class="btn-primary w-100 py-3">Confirm Appointment</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Info Side -->
+                <div class="col-lg-5">
+                    <div class="card-premium h-100 bg-dark-green text-white p-4 p-md-5">
+                        <h3 class="text-white mb-4">What Happens Next?</h3>
+                        <ul class="list-unstyled mb-5">
+                            <li class="d-flex mb-4">
+                                <div class="bg-light-sage text-dark-green rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0" style="width: 40px; height: 40px; font-weight: bold;">1</div>
+                                <div>
+                                    <h5 class="text-white mb-1">Confirmation Email</h5>
+                                    <p class="text-light-sage small mb-0">You'll receive an email confirming your selected date and time.</p>
+                                </div>
+                            </li>
+                            <li class="d-flex mb-4">
+                                <div class="bg-light-sage text-dark-green rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0" style="width: 40px; height: 40px; font-weight: bold;">2</div>
+                                <div>
+                                    <h5 class="text-white mb-1">Intake Form</h5>
+                                    <p class="text-light-sage small mb-0">Please fill out the medical history form sent to you before we meet.</p>
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="bg-light-sage text-dark-green rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0" style="width: 40px; height: 40px; font-weight: bold;">3</div>
+                                <div>
+                                    <h5 class="text-white mb-1">The Consultation</h5>
+                                    <p class="text-light-sage small mb-0">We meet either in-person or via secure video link to begin your journey.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <div class="border-top border-secondary pt-4 mt-auto">
+                            <h5 class="text-white mb-3">Cancellation Policy</h5>
+                            <p class="text-light-sage small mb-0"><i class="fas fa-info-circle me-2"></i>Please provide at least 24 hours notice for any cancellations or rescheduling to avoid a fee.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a class="d-flex align-items-center gap-2 mb-4 text-decoration-none" href="index.html">
+                        <img src="assets/images/favicon.svg" alt="Nourish Logo" width="28" height="28">
+                        <span class="fw-bold fs-4 text-green" style="font-family: var(--font-accent);">Nourish.</span>
+                    </a>
+                    <p class="mb-4">A professional nutrition practice offering personalized guidance.</p>
+                    <div class="social-links d-flex gap-3">
+                        <a href="#" class="text-secondary hover-green transition"><i class="fab fa-facebook-f fs-5"></i></a>
+                        <a href="#" class="text-secondary hover-green transition"><i class="fab fa-instagram fs-5"></i></a>
+                        <a href="#" class="text-secondary hover-green transition"><i class="fab fa-x-twitter fs-5"></i></a>
+                        <a href="#" class="text-secondary hover-green transition"><i class="fab fa-linkedin-in fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Consultation</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="services.html">Meal Planning</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone text-green me-2"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope text-green me-2"></i> hello@nutrition.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-top mt-5 pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center text-secondary small">
+                <p class="mb-2 mb-md-0">&copy; 2026 Nourish Nutrition. All rights reserved.</p>
+                
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nourish - Premium Nutrition & Diet Consultation Service offering personalized meal plans and lifestyle guidance.">
+    <meta name="keywords" content="Nutritionist, Diet Plan, Healthy Lifestyle, Wellness, Meal Planning">
+    <meta name="author" content="Nourish Nutrition">
+    <title>Nutrition & Diet Consultation Service</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+</head>
+
+<body>
+
+    <!-- Main Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-xl navbar-light py-3">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                    <img src="assets/images/favicon.svg" alt="Nourish Logo" width="28" height="28">
+                    <span class="fw-bold fs-4 text-green" style="font-family: var(--font-accent);">Nourish.</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="home-2.html">Home 2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="programs.html">Programs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+                        <a href="#" id="darkModeToggleBtn" class="text-secondary text-decoration-none"
+                            title="Toggle Dark Mode"><i class="fas fa-moon fs-5"></i></a>
+                        <a href="#" id="rtlToggle" class="text-secondary text-decoration-none" title="Toggle RTL"><i
+                                class="fas fa-exchange-alt fs-5"></i></a>
+                        <a href="login.html" class="btn-outline-sm text-decoration-none ms-2">Login</a>
+                        <a href="booking.html" class="btn-primary btn-sm px-4 py-2">Book</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1. Hero -->
+    <section class="section-padding text-center position-relative"
+        style="background: url('assets/images/programs.jpg') center 20%/cover; padding: 150px 0;">
+        <div style="position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.6);"></div>
+        <div class="container position-relative z-3 text-white">
+            <h1 class="text-white">Nutrition Programs</h1>
+            <p class="lead text-white">Structured plans for every lifestyle.</p>
+        </div>
+    </section>
+    <!-- 2. Pricing Cards -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card-premium text-center h-100 d-flex flex-column">
+                        <h4>Essential Nutrition</h4>
+                        <h2>$150</h2>
+                        <p>Monthly</p>
+                        <hr>
+                        <ul class="list-unstyled flex-grow-1 mb-4">
+                            <li class="mb-2">1 Consultation</li>
+                            <li class="mb-2">Basic Meal Plan</li>
+                        </ul><a href="booking.html" class="btn-outline w-100 mt-auto">Select Program</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-premium text-center border-success shadow-lg h-100 d-flex flex-column"><span
+                            class="badge bg-green text-white mb-3 mx-auto w-auto">Recommended</span>
+                        <h4>Personalized Nutrition</h4>
+                        <h2>$250</h2>
+                        <p>Monthly</p>
+                        <hr>
+                        <ul class="list-unstyled flex-grow-1 mb-4">
+                            <li class="mb-2">2 Consultations</li>
+                            <li class="mb-2">Custom Meal Plan</li>
+                            <li class="mb-2">Dashboard Access</li>
+                        </ul><a href="booking.html" class="btn-primary w-100 mt-auto">Select Program</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-premium text-center h-100 d-flex flex-column">
+                        <h4>Complete Wellness</h4>
+                        <h2>$400</h2>
+                        <p>Monthly</p>
+                        <hr>
+                        <ul class="list-unstyled flex-grow-1 mb-4">
+                            <li class="mb-2">Weekly Consultations</li>
+                            <li class="mb-2">Custom Meal Plan</li>
+                            <li class="mb-2">Daily Chat Support</li>
+                        </ul><a href="booking.html" class="btn-outline w-100 mt-auto">Select Program</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 3. What's Included -->
+    <section class="section-padding bg-cream text-center">
+        <div class="container">
+            <h2>All Programs Include</h2>
+            <div class="row g-4 mt-4">
+                <div class="col-md-4">
+                    <div class="bg-white p-5 rounded-4 shadow-sm h-100"><i
+                            class="fas fa-mobile-alt fs-1 text-green mb-3"></i>
+                        <h5>Client Dashboard</h5>
+                        <p class="text-secondary small mt-2">Access your plans anywhere.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-white p-5 rounded-4 shadow-sm h-100"><i
+                            class="fas fa-utensils fs-1 text-green mb-3"></i>
+                        <h5>Recipe Library</h5>
+                        <p class="text-secondary small mt-2">Hundreds of healthy recipes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-white p-5 rounded-4 shadow-sm h-100"><i
+                            class="fas fa-chart-line fs-1 text-green mb-3"></i>
+                        <h5>Progress Tracking</h5>
+                        <p class="text-secondary small mt-2">Monitor your achievements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 4. FAQ -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+            <div class="accordion mx-auto" style="max-width: 800px;" id="faqAccordion">
+                <div class="accordion-item mb-3 border rounded">
+                    <h2 class="accordion-header"><button class="accordion-button rounded" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne">Can I cancel anytime?</button></h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">Yes, our monthly programs can be cancelled at any time before the
+                            next billing cycle.</div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 border rounded">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed rounded" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo">Do you cater to dietary
+                            restrictions?</button></h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">Absolutely. We customize all meal plans for allergies, intolerances,
+                            and preferences (vegan, gluten-free, etc.).</div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 border rounded">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed rounded" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree">How often will we meet?</button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">This depends on your chosen tier. Essential includes 1 monthly
+                            session, Personalized includes 2, and Complete Wellness includes weekly check-ins.</div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 border rounded">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed rounded" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour">Can I upgrade or downgrade my
+                            plan?</button></h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">Yes! You can change your subscription tier at the end of any billing
+                            month directly from your client dashboard.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 5. CTA -->
+    <section class="section-padding bg-dark-green text-center text-white">
+        <div class="container">
+            <h2 class="text-white">Need a custom plan?</h2><a href="contact.html" class="btn-primary mt-3">Contact
+                Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a class="d-flex align-items-center gap-2 mb-4 text-decoration-none" href="index.html">
+                        <img src="assets/images/favicon.svg" alt="Nourish Logo" width="28" height="28">
+                        <span class="fw-bold fs-4 text-green" style="font-family: var(--font-accent);">Nourish.</span>
+                    </a>
+                    <p class="mb-4">A professional nutrition practice offering personalized guidance.</p>
+                    <div class="social-links d-flex gap-3">
+                        <a href="#" class="text-secondary hover-green transition"><i
+                                class="fab fa-facebook-f fs-5"></i></a>
+                        <a href="#" class="text-secondary hover-green transition"><i
+                                class="fab fa-instagram fs-5"></i></a>
+                        <a href="#" class="text-secondary hover-green transition"><i
+                                class="fab fa-x-twitter fs-5"></i></a>
+                        <a href="#" class="text-secondary hover-green transition"><i
+                                class="fab fa-linkedin-in fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Consultation</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="services.html">Meal Planning</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone text-green me-2"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope text-green me-2"></i> hello@nutrition.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="border-top mt-5 pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center text-secondary small">
+                <p class="mb-2 mb-md-0">&copy; 2026 Nourish Nutrition. All rights reserved.</p>
+                
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

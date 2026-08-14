@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nourish - Premium Nutrition & Diet Consultation Service offering personalized meal plans and lifestyle guidance.">
+    <meta name="keywords" content="Nutritionist, Diet Plan, Healthy Lifestyle, Wellness, Meal Planning">
+    <meta name="author" content="Nourish Nutrition">
+    <title>Nutrition & Diet Consultation Service</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+</head>
+
+<body>
+
+    <!-- Main Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-xl navbar-light py-3">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                    <img src="assets/images/favicon.svg" alt="Nourish Logo" width="28" height="28">
+                    <span class="fw-bold fs-4 text-green" style="font-family: var(--font-accent);">Nourish.</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="home-2.html">Home 2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+                        <a href="#" id="darkModeToggleBtn" class="text-secondary text-decoration-none"
+                            title="Toggle Dark Mode"><i class="fas fa-moon fs-5"></i></a>
+                        <a href="#" id="rtlToggle" class="text-secondary text-decoration-none" title="Toggle RTL"><i
+                                class="fas fa-exchange-alt fs-5"></i></a>
+                        <a href="login.html" class="btn-outline-sm text-decoration-none ms-2">Login</a>
+                        <a href="booking.html" class="btn-primary btn-sm px-4 py-2">Book</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1. Hero -->
+    <section class="hero-slider d-flex align-items-center"
+        style="background: url('assets/images/home2.jpg') center/cover; padding: 150px 0; min-height: 80vh; position: relative;">
+        <div style="position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5);"></div>
+        <div class="container text-center position-relative z-3 text-white">
+            <span class="eyebrow text-light">The Healthy Lifestyle</span>
+            <h1 class="display-3 mb-4 text-white">Eat Well. Live Well. Feel Your Best.</h1>
+            <p class="lead text-white mx-auto mb-5" style="max-width: 700px;">Experience a holistic approach to
+                nutrition tailored
+                for your body and your goals.</p>
+            <a href="booking.html" class="btn-primary">Book Consultation</a>
+        </div>
+    </section>
+
+    <!-- 2. Nutrition Philosophy -->
+    <section class="section-padding bg-cream">
+        <div class="container text-center">
+            <span class="eyebrow">Our Approach</span>
+            <h2 class="mb-5">Nutrition Philosophy</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="card-premium h-100"><i class="fas fa-leaf text-green fs-1 mb-3"></i>
+                        <h4>Whole Foods First</h4>
+                        <p>We prioritize unrefined, nutrient-dense ingredients.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-premium h-100"><i class="fas fa-balance-scale text-green fs-1 mb-3"></i>
+                        <h4>Balanced Macros</h4>
+                        <p>Finding the right ratio of carbs, proteins, and fats for you.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-premium h-100"><i class="fas fa-heart text-green fs-1 mb-3"></i>
+                        <h4>Intuitive Eating</h4>
+                        <p>Listening to your body's natural hunger and fullness cues.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Featured Programs -->
+    <section class="section-padding">
+        <div class="container text-center">
+            <span class="eyebrow">Start Your Journey</span>
+            <h2 class="mb-3">Featured Programs</h2>
+            <p class="text-secondary mx-auto mb-5" style="max-width: 600px;">Our specialized programs are designed to
+                help you achieve your goals with structured guidance, delicious recipes, and ongoing support.</p>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card-premium h-100 d-flex flex-column"><img src="assets/images/program1.jpg"
+                            class="img-fluid rounded mb-3" style="height: 300px; object-fit: cover;">
+                        <h4>30-Day Reset</h4>
+                        <p class="text-secondary small mb-4 flex-grow-1">A structured 30-day plan designed to kickstart
+                            your healthy habits, reset your metabolism, and help you build a foundational understanding
+                            of nutrient-dense eating without feeling restricted.</p><a href="programs.html"
+                            class="btn-outline w-100 mt-auto">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-premium h-100 d-flex flex-column"><img src="assets/images/program2.jpg"
+                            class="img-fluid rounded mb-3" style="height: 300px; object-fit: cover;">
+                        <h4>Plant-Based Transition</h4>
+                        <p class="text-secondary small mb-4 flex-grow-1">Expert guidance for moving towards a
+                            plant-forward diet. Learn how to get adequate protein, manage cravings, and discover
+                            delicious new ingredients to fuel your body naturally.</p><a href="programs.html"
+                            class="btn-outline w-100 mt-auto">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Healthy Recipes -->
+    <section class="section-padding bg-cream">
+        <div class="container text-center">
+            <h2 class="mb-3">Latest Recipes</h2>
+            <p class="text-secondary mx-auto mb-5" style="max-width: 600px;">Discover our collection of nutrient-dense,
+                easy-to-make recipes that prove healthy eating can be incredibly delicious.</p>
+            <div class="row g-4 text-start">
+                <div class="col-md-4">
+                    <div class="card-premium p-0 h-100 d-flex flex-column"><img src="assets/images/latest1.jpg"
+                            class="img-fluid w-100" style="height:200px; object-fit:cover;">
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5>Quinoa Power Bowl</h5>
+                            <p class="text-secondary small mt-2 mb-4">A nutrient-packed bowl loaded with fluffy quinoa,
+                                roasted chickpeas, fresh greens, and a zesty lemon-tahini dressing for a perfect lunch.
+                            </p><a href="recipes.html"
+                                class="text-green fw-bold small text-decoration-none mt-auto">View Recipe <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-premium p-0 h-100 d-flex flex-column"><img src="assets/images/latest2.jpg"
+                            class="img-fluid w-100" style="height:200px; object-fit:cover;">
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5>Grilled Salmon Salad</h5>
+                            <p class="text-secondary small mt-2 mb-4">Flaky grilled salmon served over a bed of mixed
+                                greens, cherry tomatoes, cucumbers, and tossed in a light balsamic vinaigrette.</p><a
+                                href="recipes.html" class="text-green fw-bold small text-decoration-none mt-auto">View
+                                Recipe <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-premium p-0 h-100 d-flex flex-column"><img src="assets/images/latest3.jpg"
+                            class="img-fluid w-100" style="height:200px; object-fit:cover;">
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5>Antioxidant Smoothie</h5>
+                            <p class="text-secondary small mt-2 mb-4">A refreshing and energizing blend of mixed
+                                berries, spinach, almond milk, and a scoop of protein powder for the perfect morning
+                                start.</p><a href="recipes.html"
+                                class="text-green fw-bold small text-decoration-none mt-auto">View Recipe <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Expert Profile -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6"><img
+                        src="https://ui-avatars.com/api/?name=Sarah+Expert&background=4D7A5D&color=fff&size=500"
+                        class="img-fluid rounded-4"></div>
+                <div class="col-md-6">
+                    <span class="eyebrow">Meet Your Nutritionist</span>
+                    <h2>Expert Guidance</h2>
+                    <p>With over 10 years of clinical experience, our lead nutritionist Sarah brings a wealth of
+                        knowledge to help you achieve your goals.</p>
+                    <a href="experts.html" class="btn-primary mt-3">View Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Client Stories -->
+    <section class="section-padding bg-dark-green text-white text-center">
+        <div class="container">
+            <h2 class="text-white mb-5">Client Stories</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <i class="fas fa-quote-left fs-1 text-gold mb-4"></i>
+                    <h4 class="fw-normal lh-base">"Nourish completely changed my relationship with food. I no longer
+                        feel restricted, and I have more energy than ever!"</h4>
+                    <p class="mt-4 text-light-sage">— Jessica T., 30-Day Reset Graduate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a class="d-flex align-items-center gap-2 mb-4 text-decoration-none" href="index.html">
+                        <img src="assets/images/favicon.svg" alt="Nourish Logo" width="28" height="28">
+                        <span class="fw-bold fs-4 text-green" style="font-family: var(--font-accent);">Nourish.</span>
+                    </a>
+                    <p class="mb-4">A professional nutrition practice offering personalized guidance.</p>
+                    <div class="social-links d-flex gap-3">
+                        <a href="#" class="text-secondary hover-green transition"><i
+                                class="fab fa-facebook-f fs-5"></i></a>
+                        <a href="#" class="text-secondary hover-green transition"><i
+                                class="fab fa-instagram fs-5"></i></a>
+                        <a href="#" class="text-secondary hover-green transition"><i
+                                class="fab fa-x-twitter fs-5"></i></a>
+                        <a href="#" class="text-secondary hover-green transition"><i
+                                class="fab fa-linkedin-in fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Consultation</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="services.html">Meal Planning</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone text-green me-2"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope text-green me-2"></i> hello@nutrition.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="border-top mt-5 pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center text-secondary small">
+                <p class="mb-2 mb-md-0">&copy; 2026 Nourish Nutrition. All rights reserved.</p>
+
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
