@@ -1,4 +1,4 @@
-/* Dark Mode Overrides */
+﻿/* Dark Mode Overrides */
 [data-theme="dark"] {
     --primary-green: #83A98A;
     --dark-green: #244634;
@@ -164,4 +164,5 @@
 
 [data-theme="dark"] .btn-link:hover {
     color: var(--primary-green);
-}
+[data-theme="dark"] .accordion-button::after { filter: invert(1) brightness(2) !important; }
+[data-theme="dark"] .bg-light-sage { color: var(--white) !important; }

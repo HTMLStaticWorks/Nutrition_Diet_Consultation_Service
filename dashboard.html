@@ -99,7 +99,7 @@
             align-items: center;
             position: sticky;
             top: 0;
-            z-index: 90;
+            z-index: 1050;
         }
 
         /* =========================================
@@ -262,7 +262,7 @@
 
             .dashboard-sidebar {
                 position: fixed;
-                top: 86px;
+                top: 129px;
                 left: 0;
                 width: 100%;
                 border-right: none;
@@ -271,9 +271,9 @@
                 opacity: 0;
                 visibility: hidden;
                 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-                z-index: 80;
+                z-index: 999;
                 height: auto;
-                max-height: calc(100vh - 80px);
+                max-height: calc(100vh - 129px);
                 overflow-y: auto;
                 padding-top: 20px;
                 padding-bottom: 30px;
@@ -323,6 +323,20 @@
             }
         }
 
+        @media (max-width: 991.98px) {
+            .dashboard-sidebar {
+                top: 105px;
+                max-height: calc(100vh - 105px);
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .dashboard-sidebar {
+                top: 97px;
+                max-height: calc(100vh - 97px);
+            }
+        }
+
         /* =========================================
            WORKOUTS & COMMUNITY RESPONSIVE FIX
         ========================================= */
@@ -367,6 +381,11 @@
             .dashboard-header {
                 padding: 15px;
                 margin-bottom: 20px;
+            }
+
+            .dashboard-sidebar {
+                top: 86px;
+                max-height: calc(100vh - 86px);
             }
 
             .header-controls {

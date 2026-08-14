@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600&display=swap');
 
 :root {
     /* Primary Colors */
@@ -307,3 +307,4 @@ a:hover {
     color: var(--white);
     transform: translateY(-5px);
 }
+.hover-green:hover { color: var(--primary-green) !important; transform: translateY(-3px); }
